@@ -5,8 +5,8 @@ import java.util.Random;
 public class Plant extends Organism {
     private static final Random rand = new Random();
 
-    public Plant(int x, int y, int breedInterval) {
-        super(x, y, breedInterval);
+    public Plant(int breedInterval) {
+        super(breedInterval);
     }
 
     @Override

@@ -5,8 +5,8 @@ import java.util.Random;
 public class Herbivore extends Organism {
     private static final Random rand = new Random();
 
-    public Herbivore(int x, int y, int breedInterval) {
-        super(x, y, breedInterval);
+    public Herbivore(int breedInterval) {
+        super(breedInterval);
     }
 
     @Override

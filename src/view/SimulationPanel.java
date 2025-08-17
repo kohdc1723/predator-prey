@@ -15,8 +15,8 @@ public class SimulationPanel extends JPanel {
     private static final int PADDING = 20;
     private final Board board;
 
-    public SimulationPanel(Board board) {
-        this.board = board;
+    public SimulationPanel(int height, int width) {
+        this.board = new Board(height, width);
 
         Dimension preferredSize = new Dimension(
             board.getWidth() * CELL_SIZE + PADDING * 2,
